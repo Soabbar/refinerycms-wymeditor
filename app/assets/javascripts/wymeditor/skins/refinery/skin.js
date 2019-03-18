@@ -26,11 +26,14 @@ WYMeditor.SKINS['refinery'] = {
       $(this).removeClass('hover');
     });
 
+    $('.no-tooltip').click(function(e) {
+      console.log('loutre blocking stupid redirection');
+      event.preventDefault();
+    })
+
     // show or hide CSS class options on hover
     $(wym._box).find('.wym_tools_class')
                .hover($.proxy(function(){
-                 console.log('loutre');
-                 event.preventDefault()
                  this.toggleClassSelector();
                }, wym), $.proxy(function(){
                  this.toggleClassSelector();
