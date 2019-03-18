@@ -53,16 +53,16 @@ var wymeditor_boot_options = $.extend({
 
   ,toolsItemHtml:
     "<li class='" + WYMeditor.TOOL_CLASS + "'>"
-      + "<a href='#' name='" + WYMeditor.TOOL_NAME + "' title='" + WYMeditor.TOOL_TITLE + "' class='no-tooltip'>"
+      + "<p name='" + WYMeditor.TOOL_NAME + "' title='" + WYMeditor.TOOL_TITLE + "' class='no-tooltip'>"
         + WYMeditor.TOOL_TITLE
-      + "</a>"
+      + "</p>"
     + "</li>"
 
   , classesHtml: "<ul class='wym_classes_container wym_section wym_buttons'>"
                    + "<li class='wym_tools_class'>"
-                   + "<a href='#' name='" + WYMeditor.APPLY_CLASS + "' title='"+ WYMeditor.APPLY_CLASS +"' class='no-tooltip'>"
+                   + "<p name='" + WYMeditor.APPLY_CLASS + "' title='"+ WYMeditor.APPLY_CLASS +"' class='no-tooltip'>"
                      + WYMeditor.APPLY_CLASS
-                   + "</a>"
+                   + "</p>"
                    + "<ul class='wym_classes wym_classes_hidden'>" + WYMeditor.CLASSES_ITEMS + "</ul>"
                   + "</li>"
                 + "</ul>"
@@ -77,7 +77,7 @@ var wymeditor_boot_options = $.extend({
 
   , containersItemHtml:
       "<li class='" + WYMeditor.CONTAINER_CLASS + "'>"
-        + "<a href='#' name='" + WYMeditor.CONTAINER_NAME + "' title='" + WYMeditor.CONTAINER_TITLE + "' class='no-tooltip'></a>"
+        + "<p name='" + WYMeditor.CONTAINER_NAME + "' title='" + WYMeditor.CONTAINER_TITLE + "' class='no-tooltip'></p>"
       + "</li>"
 
   , boxHtml:
