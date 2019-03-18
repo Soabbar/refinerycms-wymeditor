@@ -27,7 +27,6 @@ WYMeditor.SKINS['refinery'] = {
     });
 
     $('.no-tooltip').click(function(e) {
-      console.log('loutre blocking stupid redirection');
       e.preventDefault();
     })
 

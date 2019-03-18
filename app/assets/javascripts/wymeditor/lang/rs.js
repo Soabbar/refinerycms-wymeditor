@@ -2,6 +2,7 @@
   Strong:           'Oštro',
   Bold:             'Bold',
   Emphasis:         'Italic',
+  Underline:         'Underline',
   Superscript:      'Superscript',
   Subscript:        'Subscript',
   Ordered_List:     'Brojna lista',
