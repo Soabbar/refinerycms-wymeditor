@@ -28,7 +28,7 @@ WYMeditor.SKINS['refinery'] = {
 
     $('.no-tooltip').click(function(e) {
       console.log('loutre blocking stupid redirection');
-      event.preventDefault();
+      e.preventDefault();
     })
 
     // show or hide CSS class options on hover
