@@ -30,7 +30,7 @@ WYMeditor.SKINS['refinery'] = {
     $(wym._box).find('.wym_tools_class')
                .hover($.proxy(function(){
                  console.log('loutre');
-                 e.preventDefault()
+                 event.preventDefault()
                  this.toggleClassSelector();
                }, wym), $.proxy(function(){
                  this.toggleClassSelector();
