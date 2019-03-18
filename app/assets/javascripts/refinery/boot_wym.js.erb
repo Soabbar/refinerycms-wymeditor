@@ -60,14 +60,14 @@ var wymeditor_boot_options = $.extend({
 
   , classesHtml: "<ul class='wym_classes_container wym_section wym_buttons'>"
                    + "<li class='wym_tools_class'>"
-                   + "<p name='" + WYMeditor.APPLY_CLASS + "' title='"+ WYMeditor.APPLY_CLASS +"' class='no-tooltip'>"
+                   + "<a href='#' name='" + WYMeditor.APPLY_CLASS + "' title='"+ WYMeditor.APPLY_CLASS +"' class='no-tooltip'>"
                      + WYMeditor.APPLY_CLASS
-                   + "</p>"
+                   + "</a>"
                    + "<ul class='wym_classes wym_classes_hidden'>" + WYMeditor.CLASSES_ITEMS + "</ul>"
                   + "</li>"
                 + "</ul>"
 
-  , classesItemHtml: "<li><p name='"+ WYMeditor.CLASS_NAME + "'>"+ WYMeditor.CLASS_TITLE+ "</p></li>"
+  , classesItemHtml: "<li><a href='#' name='"+ WYMeditor.CLASS_NAME + "'>"+ WYMeditor.CLASS_TITLE+ "</a></li>"
   , classesItemHtmlMultiple: "<li class='wym_tools_class_multiple_rules'>"
                               + "<span>" + WYMeditor.CLASS_TITLE + "</span>"
                               + "<ul>{classesItemHtml}</ul>"

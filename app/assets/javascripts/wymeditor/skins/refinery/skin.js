@@ -21,7 +21,6 @@ WYMeditor.SKINS['refinery'] = {
 
     //make hover work under IE < 7
     $(wym._box).find('.wym_section').hover(function(){
-      console.log('loutre', wym._box);
       $(this).addClass('hover');
     },function(){
       $(this).removeClass('hover');
@@ -30,6 +29,8 @@ WYMeditor.SKINS['refinery'] = {
     // show or hide CSS class options on hover
     $(wym._box).find('.wym_tools_class')
                .hover($.proxy(function(){
+                 console.log('loutre');
+                 e.preventDefault()
                  this.toggleClassSelector();
                }, wym), $.proxy(function(){
                  this.toggleClassSelector();
