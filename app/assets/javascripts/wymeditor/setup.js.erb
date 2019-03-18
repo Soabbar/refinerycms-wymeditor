@@ -1,7 +1,4 @@
-if(!WYMeditor) {
-  var WYMeditor = {};
-  console.log('pouttreeeeee');
-}
+if(!WYMeditor) { var WYMeditor = {}; }
 
 //Wrap the Firebug console in WYMeditor.console
 (function() {
@@ -354,9 +351,9 @@ $.fn.wymeditor = function(options) {
                + "</div>",
 
     toolsItemHtml:"<li class='" + WYMeditor.TOOL_CLASS + "'>"
-                    + "<p name='" + WYMeditor.TOOL_NAME + "' title='" + WYMeditor.TOOL_TITLE + "'>"
+                    + "<a href='#' name='" + WYMeditor.TOOL_NAME + "' title='" + WYMeditor.TOOL_TITLE + "'>"
                       + WYMeditor.TOOL_TITLE
-                    + "</p>"
+                    + "</a>"
                   + "</li>",
 
     toolsItems: [
@@ -387,9 +384,9 @@ $.fn.wymeditor = function(options) {
                         + "</div>",
 
     containersItemHtml:"<li class='" + WYMeditor.CONTAINER_CLASS + "'>"
-                         + "<p name='" + WYMeditor.CONTAINER_NAME + "'>"
+                         + "<a href='#' name='" + WYMeditor.CONTAINER_NAME + "'>"
                            + WYMeditor.CONTAINER_TITLE
-                         + "</p>"
+                         + "</a>"
                        +"</li>",
 
     containersItems: [
@@ -411,9 +408,9 @@ $.fn.wymeditor = function(options) {
                         + "</ul></div>",
 
     classesItemHtml:   "<li class='wym_classes_" + WYMeditor.CLASS_NAME + "'>"
-                        + "<p name='" + WYMeditor.CLASS_NAME + "'>"
+                        + "<a href='#' name='" + WYMeditor.CLASS_NAME + "'>"
                           + WYMeditor.CLASS_TITLE
-                        + "</p>"
+                        + "</a>"
                       +"</li>",
 
     classesItems:      [],
