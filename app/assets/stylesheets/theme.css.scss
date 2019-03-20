@@ -1,5 +1,14 @@
 /* alignment styles */
 h1{
+  font-size: 60px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0e3961;
+}
+h2{
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -10,7 +19,7 @@ h1{
   width: 90%;
   margin: 0 5% 10px 5%;
 }
-h2{
+h3{
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
@@ -123,4 +132,31 @@ p {
   letter-spacing: normal;
   text-align: center;
   color: #adb0b7;
+}
+
+ul {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: $grey-cool;
+  width: 90%;
+  margin: 0 8% 20px 8%;
+  li {
+    list-style: disc;
+  }
+}
+
+ol {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: $grey-cool;
+  width: 90%;
+  margin: 0 8% 20px 8%;
 }
