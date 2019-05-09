@@ -282,6 +282,7 @@ WYMeditor.editor.prototype.intercept_paste = function(e) {
  * @description Cleans up the HTML
  */
 WYMeditor.editor.prototype.xhtml = function() {
+    console.log('CLEAN XHTML');
     return this.parser.parse(this.html());
 };
 

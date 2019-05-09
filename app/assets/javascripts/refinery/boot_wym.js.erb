@@ -243,6 +243,16 @@ WYMeditor.init = function() {
   wymeditor_inputs.wymeditor(wymeditor_boot_options);
 };
 
-$(document).on('ready page:load', function(){
+// $(document).on('ready page:load body:change page_part_editors:load visual_editor:load', function(){
+//   console.log('PAGE READY');
+//   WYMeditor.init();
+// });
+
+$(document).change('.page_part_editors .visual_editor', function() {
   WYMeditor.init();
-});
+})
+
+// $(document).load('page_part_editors visual_editor', function(){
+//   console.log('PAGE LOAD');
+//   WYMeditor.init();
+// });
